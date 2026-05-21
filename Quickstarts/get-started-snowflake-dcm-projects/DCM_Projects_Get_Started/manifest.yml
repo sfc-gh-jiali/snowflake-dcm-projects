@@ -8,7 +8,7 @@ default_target: DCM_DEV
 
 targets:
   DCM_DEV:
-    account_identifier: MYORG-MY_DEV_ACCOUNT        # update to your account names
+    account_identifier: SFPSCOGS-JLI_AWS_TEST        # update to your account names
     project_name: DCM_DEMO.PROJECTS.DCM_PROJECT_DEV
     project_owner: DCM_DEVELOPER
     templating_config: DEV
@@ -41,7 +41,7 @@ templating:
   configurations:
     DEV:
       env_suffix: "_DEV"
-      user: "INSERT_YOUR_USER"
+      user: "JIALI"
       project_owner_role: "DCM_DEVELOPER" 
       teams: 
         - name: "DEV_TEAM_1" 
